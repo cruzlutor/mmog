@@ -1,0 +1,29 @@
+{
+  "name": "mmog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:client": "webpack-dev-server --config webpack.dev.js --host 0.0.0.0",
+    "start:server": "node server/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "phaser": "^3.19.0",
+    "ws": "^7.1.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-loader": "^8.0.6",
+    "file-loader": "^4.2.0",
+    "html-webpack-plugin": "^3.2.0",
+    "raw-loader": "^3.1.0",
+    "webpack": "^4.39.2",
+    "webpack-cli": "^3.3.7"
+  }
+}
